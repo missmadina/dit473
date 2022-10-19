@@ -1,0 +1,67 @@
+ /* universal selector */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* name selector */
+body{
+    background-color:red;
+}
+/* id selector */
+#Admin-box{
+    background-color: rgb(173, 34, 34);
+    width:50%;
+    margin:100px auto;
+    text-align:center;
+    padding:50px;
+    border-radius:10px;
+}
+/* descendent selector */
+#Admin-box h1{
+font-size:35px;
+text-transform:uppercase;
+font-family: 'Courier New', Courier, monospace;
+}
+/* Grouping seclector */
+input,label{  
+    display:block;
+    width:90%;
+    margin:5px auto;
+}
+ label{
+    font-size:17px;
+    text-transform: uppercase;
+}
+
+input{
+padding:10px;
+background-color:transparent;
+border:1px solid black;
+font-size:17px;
+outline:0;
+}
+input [type="submit"] {
+margin-top:20px;
+transition:ease-in-out 0.8s;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: maroon;
+    border:1px solid black;
+}
+input::placeholder{
+    color: black;
+}
+p{
+    font-size:17px;
+}
+    p a {
+color:aqua;
+text-decoration:none;
+ }
+
+
+
+
